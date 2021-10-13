@@ -70,7 +70,8 @@
         "image": "https://www.freetogame.com/g/9/thumbnail.jpg",
         "label": [
             "all",
-            "top"
+            "top",
+            "new"
         ]
      },
      {
@@ -110,6 +111,7 @@
         "image": "https://www.freetogame.com/g/14/thumbnail.jpg",
         "label": [
             "all",
+            "new",
             "top"
         ]
      },
@@ -142,7 +144,7 @@
         "image": "https://www.freetogame.com/g/18/thumbnail.jpg",
         "label": [
             "all",
-            "top"
+            "new"
         ]
      },
      {
@@ -150,7 +152,7 @@
         "image": "https://www.freetogame.com/g/19/thumbnail.jpg",
         "label": [
             "all",
-            "top"
+            "new"
         ]
      },
      {
@@ -158,7 +160,7 @@
         "image": "https://www.freetogame.com/g/20/thumbnail.jpg",
         "label": [
             "all",
-            "top"
+            "new"
         ]
      }
      
