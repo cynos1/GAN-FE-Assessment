@@ -34,8 +34,8 @@
 
 .results{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); 
+  grid-gap: 1rem;
   grid-auto-flow:dense;
   object-fit: cover;
   height: 100%;
