@@ -44,7 +44,7 @@
 }
 
 button.all i::after{
-  font-family: 'Font Awesome 5\ Free' !important;
+  font-family: 'Font Awesome 5 Free' !important;
   font-weight: 900;
   content: '\f009'!important;
   display: block;
