@@ -3,7 +3,7 @@ import gamesData from "../data.json";
 // import {CgMenuGridR} from 'react-icons/cg';
 // import { FaSearch} from 'react-icons/fa';
 function Home() {
-  // const [toggle, setToggle] = useState(false);
+  // const [color, setcolor] = useState(black);
   const [categoryData] = useState([...gamesData]);
   const [currentCategory, setCurrentCategory] = useState("All");
   const [searchData, setSearchData] = useState("");
@@ -19,7 +19,7 @@ function Home() {
     });
 
     const tabs = searchResult.map((data, key) => {
-      return <img alt={data.title} src={data.image} key={key} />;
+      return <img alt={data.title} src={data.image} key={key}  />;
     });
 
     return (
@@ -31,7 +31,8 @@ function Home() {
 
   return (
     <div className="body">
-      <div className="nav">
+      
+  <div className="nav">
         
             
         
@@ -39,25 +40,25 @@ function Home() {
           <FaAlignRight/>
         </button> */}
         <h2 className="slots">SLOTS</h2>
-        <span className="controls">
+      <span className="controls">
         
           <span className="buttons">
-          <button className="all" onClick={() => setCurrentCategory("All")}>
+          <button type="button" className="all" onClick={() => setCurrentCategory("All") } >
             <i></i>
             <span>All</span>
           </button>
 
           
-          <button className="new" onClick={() => setCurrentCategory("New")}>
+          <button type="button" className="new" onClick={() => setCurrentCategory("New")}>
             <i></i>
             <span>New</span>
           </button>
           
-          <button className="top" onClick={() => setCurrentCategory("Top")}>
+          <button type="button" className="top" onClick={() => setCurrentCategory("Top")}>
             <i></i>
             <span>Top</span>
           </button>
-          </span>
+        </span>
 
         <div className = "searchcontainer">
           <input
@@ -68,11 +69,11 @@ function Home() {
           />
           {/* <FaSearch className="searchicon"/> */}
         </div>
-        </span>
+      </span>
       </div>
         {displayTabs(searchData)}
       
-    </div>
+  </div>
   );
 }
 

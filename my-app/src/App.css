@@ -15,23 +15,27 @@
   color:mediumturquoise;
 }
 
+
 @media only screen and (max-width:425px){
  .buttons{
     display: inline-flex;
     margin-right: -180px;
     margin-top: 60px;
  }
- .searchbar{
+ /* .searchbar{
   
   margin-right: -180px;
   margin-top: 60px;
+ } */
+ .searchcontainer{
+   height: 50px;
  }
 }
 
 .results{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
-  grid-gap: 1 rem;
+  grid-gap: 1rem;
   grid-auto-flow:dense;
   object-fit: cover;
   height: 100%;
@@ -62,9 +66,19 @@ button{
   vertical-align: top;
   border:none;
   background: none;
+  color:black;
   padding: 25px;
   font-size: 15px;
   
+}
+.all:active{
+  color:mediumturquoise;
+}
+.new:active:active{
+  color:mediumturquoise;
+}
+.top:active{
+  color:mediumturquoise;
 }
 
 .searchbar{
