@@ -1,3 +1,4 @@
+/* @import url('/font-awesome/css/font-awesome.min.css'); */
 .body{
   box-sizing: border-box;
   margin: 0 auto;
@@ -34,7 +35,7 @@
 
 .results{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); 
   grid-gap: 1rem;
   grid-auto-flow:dense;
   object-fit: cover;
@@ -44,22 +45,23 @@
 }
 
 button.all i::after{
-  font-family: 'Font Awesome 5 Free' !important;
+  content: '\f00a';
+  font-family: "FontAwesome";
   font-weight: 900;
-  content: '\f009'!important;
   display: block;
 }
 button.new i::after{
-  font-family: "FontAwesome 5 Free"  ;
+  font-family: "FontAwesome" !important ;
+  
   font-weight: 900;
-  content: '\f02e' !important;
+  content: '\f02e' ;
   display: block;
 }
 button.top i::after{
-  font-family: 'Font Awesome 5 Free' !important;
+  font-family: 'Font Awesome' !important;
   font-weight: 900;
   display: block;
-  content:'\f005' !important;
+  content:"\f005";
 }
 button{
   height: auto;
